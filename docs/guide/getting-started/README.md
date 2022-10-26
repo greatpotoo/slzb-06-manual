@@ -7,39 +7,39 @@ next: ../installation/
 
 ## About
 
-SLZB-06 is Zigbee adapter, that enables Zigbee packet forwarding over Ethernet, WiFi or Serial (USB) connection, and serves as an access point in a Zigbee network. Zigbee adapter allows you to connect devices from different producers (Tuya, IKEA, Xiaomi, Gledopto, Moes, Sonoff and others) into one system. In order to properly use SLZB-06 you need to have an instance of [Home Assistant](https://www.home-assistant.io/installation/) and [zigbee2mqtt](https://www.zigbee2mqtt.io/guide/installation/).
+SLZB-06 is a Zigbee adapter, that enables Zigbee packet forwarding over Ethernet, WiFi or Serial (USB) connection, and serves as an access point in a Zigbee network. The Zigbee adapter allows you to connect devices from different producers (Tuya, IKEA, Xiaomi, Gledopto, Moes, Sonoff and others) into one system. In order to properly use SLZB-06 you need to have an instance of [Home Assistant](https://www.home-assistant.io/installation/) and [zigbee2mqtt](https://www.zigbee2mqtt.io/guide/installation/).
 
 ### What is in the box?
 - 1x SLZB-06 Zigbee Ethernet PoE USB WiFi Adapter
 - 1x 5dB Antenna
-- 1x microUSB-to-typeC adapter (just in case you want to use as USB but do not have type-C cable)
-- 2x adhesive tapes - if you want to stock you adapter - easiest way to do that
-- 2x screws - if you want to fix your adapter by screws - easey, they are included
-- 1x screwdriver - you will use it to fix by screws;
-- 1x screw-helper and QR-manual - even more easy screw fixing and link to this manual;
+- 1x microUSB-to-typeC adapter (just in case you want to use the USB connection but do not have a type-C cable)
+- 2x adhesive tapes - if you want to surface mount your adapter - easiest way to do that
+- 2x screws - if you want to mount your adapter using screws - easy, they are included
+- 1x screwdriver (allen key) - you will use it to fix by screws;
+- 1x mounting-template with QR code for manual - making screw mounting even easier and a QR code linking to this manual;
 <img src="../../images/about/package.png" title="SLZB-06 About - Package" class="float-left" />  
 
 ## Powering the device
 Device can be powered by either PoE through Ethernet cable or by type-C plug.
 
 ::: tip
-Package contains microUSB-typeC adapter. If you want to power on your device by type-C but do not have type-C cable, use microUSB-typeC adapter.
+Package contains microUSB-typeC adapter. If you want to power your device by type-C but do not have type-C cable, use the microUSB-typeC adapter.
 :::
 
 ::: tip
-SLZB-06 has optoelectronic isolation, so can be connected to USB port of your PC and at the same time to Ethernet/PoE cable!
+SLZB-06 has optoelectronic isolation, so can be connected to the USB port of your PC and to Ethernet/PoE cable at the same time!
 :::
 
 ## LED behaviour
 - **<span style="color:yellow">Yellow</span>** LED is the power LED. Default operation: On when the unit is connected to a power source.
 - **<span style="color:blue">Blue</span>** LED is the operation mode LED. Default operation: On when the device is in Zigbee-to-USB mode and off when the device is in Zigbee-to-Ethernet mode.
 - **<span style="color:green">Green</span>** LED - Zigbee2MQTT connection LED. Default operation: On when Zigbee2MQTT has successfully connected to the device and Zigbee network is established. 
-- **<span style="color:red">Red</span>** LED - reserved for further work with Zigbee2MQTT
+- **<span style="color:red">Red</span>** LED - reserved for further development with Zigbee2MQTT
 <img src="../../images/about/leds-on-case.png" title="SLZB-06 About - Leds on case" class="float-left" />  
 
-## Stick to wall
+## Mount to wall
 
-SLZB-06 adapter can be attached to the wall, or anything else you want, with either double-sided adhesive tape or screws. Both are included in the package.  
+SLZB-06 adapter can be mounted to a wall, or any other surface you want, with either double-sided adhesive tape or screws. Both are included in the package.  
 See the 6-step graphic instructions below for attaching the SLZB-06 adapter to double-sided adhesive tape and screws.
 
 ### Adhesive tape
@@ -56,5 +56,5 @@ See the 6-step graphic instructions below for attaching the SLZB-06 adapter to d
 <br>  
 
 ::: tip
-Screwdriver included in the package
+Screwdriver (allen key) included in the package
 :::
